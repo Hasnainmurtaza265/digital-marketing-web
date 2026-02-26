@@ -1,0 +1,440 @@
+/* MEDIA SECTION */
+
+
+@media screen and (max-width: 1170px) {
+
+    /* Nav Bar */
+    nav {
+        width: 100%;
+        height: 60px;
+        border: 2px solid black;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        /* padding-left: 10px;
+    padding-right: 10px; */
+    }
+
+
+    /* Nav Bar LOGO */
+    .navlogo {
+        width: 219px;
+        height: 40px;
+        border: 2px solid black;
+        gap: 10px;
+        align-self: center;
+        margin-left: 30px;
+        margin-top: 5px;
+        /* align-items: center; */
+    }
+
+    .navlogo img {
+        width: 100%;
+
+        /* height: 100%; */
+    }
+
+
+
+
+    /* Nav Bar Items */
+
+    .navdiv {
+        width: 811px;
+        height: 58px;
+        border: 2px solid black;
+        display: flex;
+        gap: 40px;
+        list-style: none;
+        margin-right: 30px;
+        /* text-decoration: none; */
+
+    }
+
+    .navdiv li {
+        width: 82px;
+        height: 28px;
+        /* font-size: 18px; */
+        line-height: 28px;
+        font-weight: 400;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #000000;
+
+
+    }
+
+    .navitems {
+        text-decoration: none;
+        margin-top: 20px;
+        /* width: 100%; */
+
+
+    }
+
+    .item6 {
+        border: 1px solid #191A23;
+        padding: 5px 35px 20px;
+        border-radius: 14px;
+        margin-top: 0px;
+        text-decoration: none;
+    }
+
+    /* Hero Section */
+
+    .herodiv h1 {
+        width: 400px;
+        height: 200px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 500;
+        font-size: 50px;
+        color: #000000;
+        text-align: center;
+    }
+
+    .herodiv p {
+        width: 498px;
+        height: 112px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 28px;
+        color: #000000;
+        text-align: center;
+    }
+
+
+
+}
+
+
+/* Media Section 2 */
+
+
+@media screen and (max-width: 1150px) {
+
+    /* Nav Bar */
+    nav {
+        height: 150px;
+        width: 100%;
+        /* margin: 10px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Nav Bar LOGO */
+
+
+
+    /* .navlogo {} */
+
+
+    /* Nav Items */
+    .navdiv {
+        width: 100%;
+        /* margin-top: 90px; */
+        margin-left: 30px;
+        /* margin-right: 25px; */
+        justify-content: center;
+
+    }
+
+    /* Hero Section */
+
+    .heromain{
+    width: 100%;
+    height: 800px;
+    border: 2px solid black;
+/* display: block; */
+display: flex;
+flex-direction: column;    
+align-items: center;
+/* text-align: center; */
+/* position: relative; */
+    /* margin-top: 50px; */
+    justify-content: space-between; 
+
+
+
+}
+.hero2{
+    order: 1;
+}
+.hero1{
+    order: 2;
+}
+.herodiv{
+    border: 2px solid black;
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+    position: relative;
+/* text-align: center; */
+    /* text-align: center; */
+/* display: flex; */
+}
+
+
+/* .hero1{
+    height: 1000px;
+} */
+
+    .herodiv h1 {
+        width: 400px;
+        height: 500px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 500;
+        font-size: 50px;
+        color: #000000;
+        text-align: center;
+        margin-left: 350px;
+     
+    }
+
+    .herodiv p {
+        width: 498px;
+        height: 112px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 28px;
+        color: #000000;
+        text-align: center;
+        margin-left: 300px;
+    /* margin-bottom: 100px; */
+    position: absolute;
+    bottom: 150px;
+    }
+    
+/* .hero2{
+    margin-top: 100px;
+} */
+    .hero> img {
+        
+width: 100%;
+height: 100%;
+    }
+
+
+}
+.hero1 button{
+    /* margin-bottom: 0px ; */
+    position: absolute;
+    bottom: 50px;
+    left: 130px;
+    text-align: center;
+}
+
+/* MEDIA SECTION 3 */
+
+@media screen and (max-width: 850px) {
+
+    /* Nav Bar */
+    nav {
+        height: 250px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navlogo {
+        width: 450px;
+        height: 70px;
+
+    }
+
+
+    /* Nav Items */
+
+    .navdiv {
+        width: 400px;
+        height: 150px;
+        display: flex;
+        justify-content: flex-start;
+        
+        flex-wrap: wrap;
+/* align-items: flex-end; */
+        align-items: center;
+
+
+    }
+
+
+
+
+}
+
+/* Media Section 4 */
+@media screen and (max-width: 550px) {
+
+
+    /* *{
+    padding: 0px;
+    margin: 0px;
+
+} */
+
+
+    nav {
+        width: 100%;
+        height: 250px;
+    }
+
+    .navlogo {
+        width: 200px;
+        height: 50px;
+
+        /* border: 2px solid black; */
+        gap: 10px;
+        align-self: center;
+        /* margin-left: px; */
+        margin-top: 10px;
+        /* align-items: center; */
+
+    }
+
+
+    /* Nav Itmes */
+    .navdiv {
+        width: 350px;
+        height: 150px;
+        border: 2px solid black;
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        margin-right: 50px;
+        /* text-decoration: none; */
+
+    }
+
+    .navdiv li {
+        width: 82px;
+        height: 28px;
+        /* font-size: 18px; */
+        line-height: 28px;
+        font-weight: 300;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #000000;
+
+
+    }
+
+    .navitems {
+        text-decoration: none;
+        /* margin-top: 10px; */
+
+
+    }
+
+    .item6 {
+        border: 1px solid #191A23;
+        padding: 5px 35px 20px;
+        border-radius: 14px;
+        margin-top: 0px;
+        text-decoration: none;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* Media Section 5*/
+@media screen and (max-width: 415px) {
+
+
+    /* *{
+    padding: 0px;
+    margin: 0px;
+
+} */
+
+
+    nav {
+        width: 100%;
+        height: 250px;
+    }
+
+    .navlogo {
+        width: 150px;
+        height: 50px;
+
+        /* border: 2px solid black; */
+        gap: 10px;
+        align-self: center;
+        /* margin-left: px; */
+        margin-top: 5px;
+        margin-left: 5px;
+        /* align-items: center; */
+
+    }
+
+
+    /* Nav Itmes */
+    .navdiv {
+        width: 350px;
+        height: 150px;
+        border: 2px solid black;
+        display: flex;
+        /* justify-content: center;
+    align-items: center; */
+        /* gap: px; */
+        list-style: none;
+        margin-right: 0px;
+        /* text-decoration: none; */
+
+    }
+
+    .navdiv li {
+        width: 82px;
+        height: 28px;
+        /* font-size: 18px; */
+        line-height: 28px;
+        font-weight: 300;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #000000;
+
+
+    }
+
+    .navitems {
+        text-decoration: none;
+        /* margin-top: 10px; */
+
+
+    }
+
+    .item6 {
+        border: 1px solid #191A23;
+        padding: 5px 35px 20px;
+        border-radius: 14px;
+        margin-top: 0px;
+        text-decoration: none;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
