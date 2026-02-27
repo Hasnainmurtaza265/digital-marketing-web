@@ -51,22 +51,81 @@
     }
 
     
-    /* Mobile */
-@media screen and (max-width: 768px){
+   
+    
+
     .companieslogo{
-        display: flex;
-        flex-wrap: nowrap;          /* wrap na ho */
-        overflow-x: auto;           /* horizontal scroll */
-        gap: 10px;
-        padding: 10px;
-        -webkit-overflow-scrolling: touch; /* smooth scroll ios */
+        justify-content: space-between;
+        gap: 5px;   /* thoda gap kam */
     }
 
     .companieslogo img{
-        height: 35px;               /* choti height */
-        width: auto;
-        flex: 0 0 auto;             /* fix size, scrollable */
-    }
-}
-}
+        max-height: 30px;  /* choti height */
+        width: calc((100% - 25px)/6); /* 6 logos equal width, gap adjust */
+        height: auto;
+   }
 
+
+      /* ================= RESPONSIVE ================= */
+
+@media screen and (max-width: 768px){
+
+    /* Navbar */
+    nav{
+        padding: 20px;
+    }
+
+    .navdiv{
+        gap: 15px;
+        justify-content: center;
+    }
+
+    /* Hero Section */
+    .heromain{
+        padding: 40px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero1 h1{
+        font-size: 32px;
+    }
+
+    .hero1 p{
+        font-size: 16px;
+    }
+
+    /* Services Section */
+    .servicesparent{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        padding: 0 20px;
+        height: auto;
+    }
+
+    .servicestext{
+        width: 100%;
+        height: auto;
+    }
+
+    /* CARDS */
+
+    .maincarddiv{
+        flex-direction: column;   /* cards neeche aayenge */
+        align-items: center;
+        height: auto;             /* fixed height remove */
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6{
+        width: 90%;      /* full width */
+        margin-bottom: 30px;
+    }
+
+}
+}
