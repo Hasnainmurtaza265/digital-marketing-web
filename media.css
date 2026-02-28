@@ -1,6 +1,6 @@
 @media screen and (max-width: 1150px){
 
-    nav{
+    /* nav{
         padding: 20px 30px;
     }
 
@@ -21,6 +21,36 @@
     .hero1 h1{
         font-size: 42px;
     }
+
+} */
+
+
+/* Hero stack */
+.heromain{
+    flex-direction: column;
+}
+
+.hero2{
+    order:-1;
+}
+
+/* Cards column */
+.maincarddiv{
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+
+/* Card width fix */
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6{
+    width: 90%;
+    height: auto;
+}
 
 }
 
