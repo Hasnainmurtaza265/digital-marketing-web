@@ -618,6 +618,15 @@ line-height: 100%;
     line-height: 100%;
     margin-top: 30px;
 }
+.proposalcontent button{
+    width: 288px;
+    height: 68px;
+    gap: 10px;
+    border-radius: 14px;
+    background-color: #191A23;
+    color: white;
+
+}
 
 .proposalimg{
 border: 2px solid black;
