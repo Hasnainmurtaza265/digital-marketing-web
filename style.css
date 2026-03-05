@@ -226,7 +226,7 @@ nav {
 /* -------CARD 2------ */
 
 
-.card2{
+.card2 {
     border: 2px solid black;
     width: 600px;
     height: 310px;
@@ -242,14 +242,14 @@ nav {
 
 
 
-.card2child2{
+.card2child2 {
     border: 2px solid black;
     width: 221px;
     height: 210px;
     gap: 93px;
 }
 
-.card2child2 >h1 {
+.card2child2>h1 {
     background-color: white;
     width: 215px;
     height: 76px;
@@ -289,10 +289,10 @@ nav {
 }
 
 
-  
-  
-         /* ----------CARD 3---------- */
-       .card3{
+
+
+/* ----------CARD 3---------- */
+.card3 {
     border: 2px solid black;
     width: 600px;
     height: 310px;
@@ -308,14 +308,14 @@ nav {
 
 
 
-.card3child3{
+.card3child3 {
     border: 2px solid black;
     width: 221px;
     height: 210px;
     gap: 93px;
 }
 
-.card3child3 >h1 {
+.card3child3>h1 {
     background-color: white;
     width: 215px;
     height: 76px;
@@ -323,7 +323,7 @@ nav {
 
 }
 
-.learnmore3{
+.learnmore3 {
     border: 2px solid black;
     width: 180px;
     height: 41px;
@@ -362,10 +362,10 @@ nav {
 
 
 
-        /* -------CARD 4------- */
+/* -------CARD 4------- */
 
 
-            .card4{
+.card4 {
     border: 2px solid black;
     width: 600px;
     height: 310px;
@@ -381,14 +381,14 @@ nav {
 
 
 
-.card4child4{
+.card4child4 {
     border: 2px solid black;
     width: 221px;
     height: 210px;
     gap: 93px;
 }
 
-.card4child4 >h1 {
+.card4child4>h1 {
     background-color: #B9FF66;
     width: 215px;
     height: 76px;
@@ -396,7 +396,7 @@ nav {
 
 }
 
-.learnmore2{
+.learnmore2 {
     border: 2px solid black;
     width: 180px;
     height: 41px;
@@ -430,10 +430,10 @@ nav {
 
 
 
-            /* -------CARD 5------- */
+/* -------CARD 5------- */
 
 
-            .card5{
+.card5 {
     border: 2px solid black;
     width: 600px;
     height: 310px;
@@ -449,14 +449,14 @@ nav {
 
 
 
-.card5child5{
+.card5child5 {
     border: 2px solid black;
     width: 221px;
     height: 210px;
     gap: 93px;
 }
 
-.card5child5 >h1 {
+.card5child5>h1 {
     background-color: white;
     width: 215px;
     height: 76px;
@@ -464,7 +464,7 @@ nav {
 
 }
 
-.learnmore2{
+.learnmore2 {
     border: 2px solid black;
     width: 180px;
     height: 41px;
@@ -497,10 +497,10 @@ nav {
 }
 
 
-    /* -------CARD 6------- */
+/* -------CARD 6------- */
 
 
-            .card6{
+.card6 {
     border: 2px solid black;
     width: 600px;
     height: 310px;
@@ -516,14 +516,14 @@ nav {
 
 
 
-.card6child6{
+.card6child6 {
     border: 2px solid black;
     width: 221px;
     height: 210px;
     gap: 93px;
 }
 
-.card6child6 >h1 {
+.card6child6>h1 {
     background-color: #B9FF66;
     width: 215px;
     height: 76px;
@@ -531,7 +531,7 @@ nav {
 
 }
 
-.learnmore6{
+.learnmore6 {
     border: 2px solid black;
     width: 180px;
     height: 41px;
@@ -564,53 +564,53 @@ nav {
 }
 
 
-          /* ----------CARDS COMPLETED */
+/* ----------CARDS COMPLETED */
 
 
-        /* ----------FREE PROPOSAL CARD---------- */
+/* ----------FREE PROPOSAL CARD---------- */
 
 
- .proposaldiv{
-border: 2px solid black;
-width: 100%;
-height: 394px;
-margin-top: 100px;
-/* gap: 275px; */
-display: flex;
-justify-content: center;
-align-items: center;
+.proposaldiv {
+    border: 2px solid black;
+    width: 100%;
+    height: 394px;
+    margin-top: 100px;
+    /* gap: 275px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
- }       
-
- .proposalcard{
-border: 2px solid black;
-width: 1240px;
-height: 347px;
-background-color: #F3F3F3;
-border-radius: 45px;
-display: flex;
-
-justify-content: space-around;
-align-items: center;
- }
-
- .proposalcontent{
-border: 2px solid black;
-width: 500px;
-height: 227px;
-
- }
-
-
-.proposalcontent h3{
-    width: 500px;
-height: 38px;
-font-weight: 500;
-font-size: 30px;
-line-height: 100%;
 }
 
-.proposalcontent p{
+.proposalcard {
+    border: 2px solid black;
+    width: 1240px;
+    height: 347px;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.proposalcontent {
+    border: 2px solid black;
+    width: 500px;
+    height: 227px;
+
+}
+
+
+.proposalcontent h3 {
+    width: 500px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.proposalcontent p {
     width: 500px;
     height: 69px;
     font-weight: 400;
@@ -618,7 +618,8 @@ line-height: 100%;
     line-height: 100%;
     margin-top: 30px;
 }
-.proposalcontent button{
+
+.proposalcontent button {
     width: 288px;
     height: 68px;
     gap: 10px;
@@ -628,14 +629,376 @@ line-height: 100%;
 
 }
 
-.proposalimg{
-border: 2px solid black;
-width: 494px;
-height: 394px;
+.proposalimg {
+    border: 2px solid black;
+    width: 494px;
+    height: 394px;
 
 
 
 }
-.proposalimg img{
+
+.proposalimg img {
     margin-bottom: 50px;
 }
+
+
+/* ==========CASE STUDIES========== */
+
+/* .casestudies{
+border: 2px solid black;
+width: 100%;
+height: 51px;
+margin-top: 100px;
+display: flex;
+
+}
+
+.caseh1{
+border: 2px solid black;
+width: 265px;
+height: 50px;
+
+}
+.casetext{
+    border: 2px solid black;
+    width: 580px;
+    height: 46px;
+} */
+
+
+.caseparent {
+    border: 2px solid black;
+    width: 90%;
+    height: 51px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 60px;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.case1 {
+    border: 2px solid black;
+    width: 265px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #B9FF66;
+    padding-left: 7px;
+    padding-right: 7px;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.case1>h2 {
+    width: 251px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+}
+
+.casetext {
+    border: 2px solid black;
+    width: 580px;
+    height: 46px;
+}
+
+/* ==========BLACK BOX========== */
+/* .blackparent {
+    border: 2px solid black;
+    width: 100%;
+    height: 326px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.blackchild {
+    border: 2px solid black;
+    width: 1234px;
+    height: 326px;
+    background-color: #191A23;
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.blacktxt {
+    border: 2px solid black;
+    width: 286px;
+    height: 163px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.blacktxt>p {
+    width: 288px;
+    height: 115px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: white;
+
+
+}
+
+.blacktxt>img {
+    width: 140px;
+    height: 28px;
+    gap: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+
+.verticalrow {
+    border: 2px solid white;
+    width: 186px;
+    rotate: -90deg;
+} */
+
+/* ===== BLACK SECTION RESPONSIVE FIX ===== */
+
+
+.blackparent{
+    width: 100%;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.blackchild{
+    width: 100%;
+    max-width: 1200px;
+    background-color: #191A23;
+    border-radius: 45px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Square Boxes */
+.blacktxt{
+    flex: 1;
+    aspect-ratio: 1 / 1;   /* square */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+}
+
+.blacktxt p{
+    color: white;
+    line-height: 1.5;
+}
+
+.blacktxt img{
+    margin-top: 20px;
+}
+
+/* Vertical Line */
+.verticalrow{
+    width: 2px;
+    height: 200px;
+    background-color: white;
+}
+
+
+
+
+/* ==========OUR WORKING PROCESS========== */
+
+
+.processparent {
+    border: 2px solid black;
+    width: 90%;
+    height: 51px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 60px;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.process1 {
+    border: 2px solid black;
+    width: 412px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #B9FF66;
+    padding-left: 7px;
+    padding-right: 7px;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.process1>h2 {
+    width: 398px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+}
+
+.processtext {
+    border: 2px solid black;
+    width: 292px;
+    height: 46px;
+}
+
+           /* =========== ABOUT WORKING PROCESS========== */
+
+.workparent{
+border: 2px solid black;
+width: 100%;
+height: 1224px;
+margin-top: 100px;
+display: flex;
+
+justify-content: center;
+align-items: center;
+flex-direction: column;
+/* gap: 10px; */
+}
+
+.mainwork{
+    border: 1px solid black;
+    width: 1234px;
+    height: 279px;
+    border-radius: 45px;
+    border-bottom: 5px solid black;
+
+    background-color: #B9FF66;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+gap: 30px;
+    /* margin-top: 10px; */
+    
+
+}
+.mainchild{
+border: 2px solid black;
+width: 1117px;
+height: 77px;
+margin-top: 5px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+align-self: center;
+gap: 10px;
+}
+.mainchild h1{
+border: 2px solid black;
+width: 65px;
+height: 77px;
+font-weight: 500;
+font-size: 60px;
+line-height: 100%;
+}
+
+
+.mainchild h2{
+width: 612px;
+height: 38px;
+font-weight: 500;
+font-size: 30px;
+line-height: 100%;
+/* text-align: center; */
+align-self: center;
+justify-self: flex-start;
+}
+
+.mainchild img{
+width: 58px;
+height: 58px;
+margin-left: auto;
+/* align-items: flex-end; */
+
+}
+
+.hrrow{
+    border: 2px solid black;
+    width: 90%;
+    height: 0px;
+    align-self: center;
+}
+
+.consultationtxt{
+width: 1114px;
+height: 60px;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+align-self: center;
+
+
+}
+
+.workchild{
+border: 2px solid black ;
+width: 1234px;
+height: 159px;
+border-radius: 45px;
+margin-top: 30px;
+background-color: #F3F3F3;
+border-bottom: 5px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.txtchild{
+border: 2px solid black;
+width:  1117px;
+height: 77px;
+display: flex;
+align-items: center;
+gap: 10px;
+/* justify-content: space-around; */
+
+}
+
+
+
+.txtchild h1{
+width: 75px;
+height: 77px;
+font-weight: 500;
+font-size: 60px;
+line-height: 100%;
+
+
+
+
+}
+
+.txtchild h2{
+width: 612px;
+height: 38px;
+font-weight: 500;
+font-size: 30px;
+line-height: 100%;
+
+
+
+    
+}
+
+.txtchild img{
+    margin-left: auto;
+}
+
+
+
+           

@@ -74,8 +74,101 @@
         margin-top: 20px;
     }
 
+          /* ==========CASE STUDIES========== */
+
+           .caseparent{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 40px 0;
+        gap: 15px;
+    }
+
+    .case1{
+        margin: 0 auto;
+    }
+
+    .casetext{
+        width: 100%;
+        height: auto;
+
+    }
+
+
+.workparent{
+height: auto;
+padding: 40px 20px;
 }
 
+.mainwork{
+width: 95%;
+height: auto;
+padding: 30px 0;
+}
+
+.mainchild{
+width: 90%;
+height: auto;
+}
+
+.mainchild h1{
+font-size: 50px;
+height: auto;
+}
+
+.mainchild h2{
+font-size: 26px;
+width: auto;
+}
+
+.consultationtxt{
+width: 90%;
+height: auto;
+line-height: 1.6;
+}
+
+/* other process boxes */
+
+.workchild{
+width: 95%;
+height: auto;
+padding: 20px 0;
+}
+
+.txtchild{
+width: 90%;
+height: auto;
+}
+
+.txtchild h1{
+font-size: 50px;
+}
+
+.txtchild h2{
+font-size: 26px;
+width: auto;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 /* ========================= */
@@ -228,4 +321,144 @@
     height: auto;
 }
     
+
+
+
+
+         /* ==========CASE STUDIES========== */
+ .caseparent{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 40px 0;
+        gap: 15px;
+    }
+
+    .case1{
+        margin: 0 auto;
+    }
+
+    .casetext{
+        width: 100%;
+        height: auto;
+
+   }
+
+
+
+    .blackchild{
+        flex-direction: column;
+        gap: 10px; /* pehle 40px tha, kam kar diya */
+    }
+
+    /* vertical lines hide */
+    .verticalrow{
+        display: none;
+    }
+
+    /* middle box ke upar neeche thin horizontal line */
+    .blacktxt:nth-child(3){
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        padding-top: 5px;  /* pehle 30px tha */
+        padding-bottom: 5px; /* pehle 30px tha */
+        margin-top: 5px;  /* extra spacing */
+        margin-bottom: 5px; /* extra spacing */
+    }
+
+    /* make all boxes square-ish */
+    .blacktxt{
+        height: auto;
+        min-height: 150px; /* adjust as needed */
+        width: 90%; /* center align */
+    }
+
+
+          /* ==========ABOUT WORKING PROCESS========== */
+
+    .processparent{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 40px 0;
+        gap: 15px;
+    }
+
+    .process1{
+        margin: 0 auto;
+    }
+
+    .processtext{
+        width: 100%;
+        height: auto;
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+               /* ==========MOBILE RESPONSIVE */
+
+
+/* Mobile */
+@media (max-width:600px){
+
+.black-parent{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+
+.black-parent .card{
+    width: 200px;
+    height: 200px;
+}
+
+/* 2nd div ki horizontal lines */
+.black-parent .card:nth-child(2){
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-right: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
