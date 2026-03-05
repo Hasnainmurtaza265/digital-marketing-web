@@ -1,40 +1,27 @@
-/* ========================= */
-/* ====== 1150px ====== */
-/* ========================= */
+/* ========================= MEDIA QUERIES ========================= */
 
+/* ----- Tablet / Large Screen: 1150px ----- */
 @media screen and (max-width: 1150px){
-
-    /* HERO STACK */
     .heromain{
         flex-direction: column;
         text-align: center;
         padding: 60px 30px;
     }
-
     .hero2{
         order: -1;
     }
-
-    /* CARDS COLUMN */
     .maincarddiv{
         flex-direction: column;
         align-items: center;
-        height: auto;
         gap: 30px;
+        height: auto;
     }
-
-    .card1,
-    .card2,
-    .card3,
-    .card4,
-    .card5,
-    .card6{
+    .maincarddiv > div{
         width: 90%;
-        height: auto;           /* remove fixed height */
-        flex-direction: column; /* stack content */
+        height: auto;
+        flex-direction: column;
         padding: 30px;
     }
-
     .card1child1,
     .card2child2,
     .card3child3,
@@ -44,7 +31,6 @@
         width: 100%;
         height: auto;
     }
-
     .card1img,
     .card2img,
     .card3img,
@@ -55,18 +41,6 @@
         height: auto;
         margin-top: 20px;
     }
-
-    .card1img img,
-    .card2img img,
-    .card3img img,
-    .card4img img,
-    .card5img img,
-    .card6img img{
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
     .learnmore1,
     .learnmore2,
     .learnmore3,
@@ -74,9 +48,8 @@
         margin-top: 20px;
     }
 
-          /* ==========CASE STUDIES========== */
-
-           .caseparent{
+    /* CASE STUDIES */
+    .caseparent{
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -84,147 +57,100 @@
         margin: 40px 0;
         gap: 15px;
     }
-
     .case1{
         margin: 0 auto;
     }
-
     .casetext{
         width: 100%;
         height: auto;
-
     }
 
-
-.workparent{
-height: auto;
-padding: 40px 20px;
+    /* WORKING PROCESS */
+    .workparent{
+        height: auto;
+        padding: 40px 20px;
+    }
+    .mainwork{
+        width: 95%;
+        height: auto;
+        padding: 30px 0;
+    }
+    .mainchild{
+        width: 90%;
+        height: auto;
+    }
+    .mainchild h1{
+        font-size: 50px;
+        height: auto;
+    }
+    .mainchild h2{
+        font-size: 26px;
+        width: auto;
+    }
+    .consultationtxt{
+        width: 90%;
+        height: auto;
+        line-height: 1.6;
+    }
+    .workchild{
+        width: 95%;
+        height: auto;
+        padding: 20px 0;
+    }
+    .txtchild{
+        width: 90%;
+        height: auto;
+    }
+    .txtchild h1{
+        font-size: 50px;
+    }
+    .txtchild h2{
+        font-size: 26px;
+        width: auto;
+    }
 }
 
-.mainwork{
-width: 95%;
-height: auto;
-padding: 30px 0;
-}
-
-.mainchild{
-width: 90%;
-height: auto;
-}
-
-.mainchild h1{
-font-size: 50px;
-height: auto;
-}
-
-.mainchild h2{
-font-size: 26px;
-width: auto;
-}
-
-.consultationtxt{
-width: 90%;
-height: auto;
-line-height: 1.6;
-}
-
-/* other process boxes */
-
-.workchild{
-width: 95%;
-height: auto;
-padding: 20px 0;
-}
-
-.txtchild{
-width: 90%;
-height: auto;
-}
-
-.txtchild h1{
-font-size: 50px;
-}
-
-.txtchild h2{
-font-size: 26px;
-width: auto;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-/* ========================= */
-/* ====== 768px ====== */
-/* ========================= */
-
+/* ----- Tablet / Mobile: 768px ----- */
 @media screen and (max-width: 768px){
-
-    /* ===== GLOBAL CENTER ===== */
     body{
         text-align: center;
     }
-
-    /* NAVBAR */
     nav{
         flex-direction: column;
         align-items: center;
         gap: 15px;
     }
-
     .navdiv{
         flex-direction: column;
         align-items: center;
         gap: 15px;
     }
-
-    /* HERO */
     .heromain{
         flex-direction: column;
         align-items: center;
         text-align: center;
         padding: 40px 20px;
     }
-
     .hero1{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    /* COMPANIES LOGO */
-  .companieslogo{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 20px;
-    justify-items: center;
-    align-items: center;
-    padding: 20px;
-}
-.companieslogo img{
-    width: 70%;
-    max-width: 100px;
-    height: auto;
-}
+    .companieslogo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .companieslogo img{
+        width: 70%;
+        max-width: 100px;
+        height: auto;
+    }
 
-    /* SERVICES */
     .servicesparent{
         flex-direction: column;
         align-items: center;
@@ -233,25 +159,20 @@ width: auto;
         margin: 40px 0;
         gap: 15px;
     }
-
     .services1{
         margin: 0 auto;
     }
-
     .servicestext{
         width: 100%;
         height: auto;
-
     }
 
-    /* CARDS */
     .maincarddiv{
         flex-direction: column;
         align-items: center;
         gap: 30px;
         margin-top: 200px;
     }
-
     .card1child1,
     .card2child2,
     .card3child3,
@@ -263,9 +184,6 @@ width: auto;
         flex-direction: column;
         align-items: center;
     }
-
-    
-
     .card1img img,
     .card2img img,
     .card3img img,
@@ -276,107 +194,114 @@ width: auto;
         height: auto;
     }
 
-  /* ===== PROPOSAL MOBILE FIX ===== */
-
-.proposaldiv{
-    height: auto;
-    padding: 40px 20px;
-}
-
-.proposalcard{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    height: auto;          /* remove fixed height */
-    padding: 30px;
-    gap: 30px;
-}
-
-.proposalcontent{
-    width: 100%;
-    height: auto;
-    text-align: center;
-}
-
-.proposalcontent h3,
-.proposalcontent p{
-    width: 100%;
-}
-.proposalcontent button{
-    width: 150px;
-    height: 50px;
-}
-
-.proposalimg{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
-
-.proposalimg img{
-    width: 80%;
-    max-width: 300px;
-    height: auto;
-}
-    
-
-
-
-
-         /* ==========CASE STUDIES========== */
- .caseparent{
+    /* PROPOSAL SECTION */
+    .proposaldiv{
+        height: auto;
+        padding: 40px 20px;
+    }
+    /* .proposalcard{
         flex-direction: column;
         align-items: center;
-        text-align: center;
-        width: 100%;
-        margin: 40px 0;
-        gap: 15px;
+        justify-content: center;
+        width: 90%;
+        height: auto;
+        padding: 30px;
+        gap: 30px;
     }
-
-    .case1{
-        margin: 0 auto;
-    }
-
-    .casetext{
+    .proposalcontent{
         width: 100%;
         height: auto;
+        text-align: center;
+    }
+    .proposalcontent h3,
+    .proposalcontent p{
+        width: 100%;
+    }
+    .proposalcontent button{
+        width: 150px;
+        height: 50px;
+    }
+    .proposalimg{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .proposalimg img{
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+    } */
 
-   }
 
-
-
-    .blackchild{
+    .proposalcard{
         flex-direction: column;
-        gap: 10px; /* pehle 40px tha, kam kar diya */
+        align-items: center;
+        justify-content: flex-start;  /* change from center to flex-start */
+        width: 90%;
+        height: auto;
+        padding: 30px;
+        gap: 20px; /* thoda kam kar diya */
     }
 
-    /* vertical lines hide */
+    .proposalcontent{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;  /* make content stack properly */
+        align-items: center;
+        gap: 20px; /* spacing between h3, p, button */
+    }
+
+    .proposalcontent h3,
+    .proposalcontent p{
+        width: 100%;
+    }
+
+    .proposalcontent button{
+        width: 150px;
+        height: 50px;
+        margin-top: 10px; /* ensure button below text */
+    }
+
+    .proposalimg{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* button aur image ke beech gap */
+    }
+
+    .proposalimg img{
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    /* BLACK SECTION */
+    .blackchild{
+        flex-direction: column;
+        gap: 10px;
+    }
     .verticalrow{
         display: none;
     }
-
-    /* middle box ke upar neeche thin horizontal line */
     .blacktxt:nth-child(3){
         border-top: 2px solid white;
         border-bottom: 2px solid white;
-        padding-top: 5px;  /* pehle 30px tha */
-        padding-bottom: 5px; /* pehle 30px tha */
-        margin-top: 5px;  /* extra spacing */
-        margin-bottom: 5px; /* extra spacing */
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
-
-    /* make all boxes square-ish */
     .blacktxt{
         height: auto;
-        min-height: 150px; /* adjust as needed */
-        width: 90%; /* center align */
+        min-height: 150px;
+        width: 90%;
     }
 
-
-          /* ==========ABOUT WORKING PROCESS========== */
-
+    /* WORKING PROCESS */
     .processparent{
         flex-direction: column;
         align-items: center;
@@ -385,80 +310,33 @@ width: auto;
         margin: 40px 0;
         gap: 15px;
     }
-
     .process1{
         margin: 0 auto;
     }
-
     .processtext{
         width: 100%;
         height: auto;
-
-   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 }
 
-
-
-               /* ==========MOBILE RESPONSIVE */
-
-
-/* Mobile */
-@media (max-width:600px){
-
-.black-parent{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    justify-items: center;
+/* ----- Small Mobile: 600px ----- */
+@media screen and (max-width: 600px){
+    .black-parent{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-items: center;
+    }
+    .black-parent .card{
+        width: 200px;
+        height: 200px;
+    }
+    .black-parent .card:nth-child(2){
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-left: none;
+        border-right: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
-
-.black-parent .card{
-    width: 200px;
-    height: 200px;
-}
-
-/* 2nd div ki horizontal lines */
-.black-parent .card:nth-child(2){
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-left: none;
-    border-right: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-}
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
