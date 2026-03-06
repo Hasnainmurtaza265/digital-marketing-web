@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
     width: 100%;
     overflow-x: hidden;
 }
@@ -770,14 +771,14 @@ height: 50px;
 /* ===== BLACK SECTION RESPONSIVE FIX ===== */
 
 
-.blackparent{
+.blackparent {
     width: 100%;
     padding: 60px 20px;
     display: flex;
     justify-content: center;
 }
 
-.blackchild{
+.blackchild {
     width: 100%;
     max-width: 1200px;
     background-color: #191A23;
@@ -789,9 +790,10 @@ height: 50px;
 }
 
 /* Square Boxes */
-.blacktxt{
+.blacktxt {
     flex: 1;
-    aspect-ratio: 1 / 1;   /* square */
+    aspect-ratio: 1 / 1;
+    /* square */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -800,17 +802,17 @@ height: 50px;
     text-align: center;
 }
 
-.blacktxt p{
+.blacktxt p {
     color: white;
     line-height: 1.5;
 }
 
-.blacktxt img{
+.blacktxt img {
     margin-top: 20px;
 }
 
 /* Vertical Line */
-.verticalrow{
+.verticalrow {
     width: 2px;
     height: 200px;
     background-color: white;
@@ -860,22 +862,22 @@ height: 50px;
     height: 46px;
 }
 
-           /* =========== ABOUT WORKING PROCESS========== */
+/* =========== ABOUT WORKING PROCESS========== */
 
-.workparent{
-/* border: 2px solid black; */
-width: 100%;
-height: 1224px;
-margin-top: 100px;
-display: flex;
+.workparent {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 1224px;
+    margin-top: 100px;
+    display: flex;
 
-justify-content: center;
-align-items: center;
-flex-direction: column;
-/* gap: 10px; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 10px; */
 }
 
-.mainwork{
+.mainwork {
     border: 1px solid black;
     width: 1234px;
     height: 279px;
@@ -887,123 +889,224 @@ flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
     flex-direction: column;
-gap: 30px;
+    gap: 30px;
     /* margin-top: 10px; */
-    
 
-}
-.mainchild{
-/* border: 2px solid black; */
-width: 1117px;
-height: 77px;
-margin-top: 5px;
- display: flex;
- justify-content: space-between;
- align-items: center;
-align-self: center;
-gap: 10px;
-}
-.mainchild h1{
-/* border: 2px solid black; */
-width: 65px;
-height: 77px;
-font-weight: 500;
-font-size: 60px;
-line-height: 100%;
-}
-
-
-.mainchild h2{
-width: 612px;
-height: 38px;
-font-weight: 500;
-font-size: 30px;
-line-height: 100%;
-/* text-align: center; */
-align-self: center;
-justify-self: flex-start;
-}
-
-.mainchild img{
-width: 58px;
-height: 58px;
-margin-left: auto;
-/* align-items: flex-end; */
 
 }
 
-.hrrow{
+.mainchild {
+    /* border: 2px solid black; */
+    width: 1117px;
+    height: 77px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    gap: 10px;
+}
+
+.mainchild h1 {
+    /* border: 2px solid black; */
+    width: 65px;
+    height: 77px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+}
+
+
+.mainchild h2 {
+    width: 612px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    /* text-align: center; */
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.mainchild img {
+    width: 58px;
+    height: 58px;
+    margin-left: auto;
+    /* align-items: flex-end; */
+
+}
+
+.hrrow {
     border: 2px solid black;
     width: 90%;
     height: 0px;
     align-self: center;
 }
 
-.consultationtxt{
-width: 1114px;
-height: 60px;
-font-weight: 400;
-font-size: 18px;
-line-height: 100%;
-align-self: center;
+.consultationtxt {
+    width: 1114px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    align-self: center;
 
 
 }
 
-.workchild{
-/* border: 2px solid black ; */
-width: 1234px;
-height: 159px;
-border-radius: 45px;
-margin-top: 30px;
-background-color: #F3F3F3;
-border-bottom: 5px solid black;
-display: flex;
-justify-content: center;
-align-items: center;
+.workchild {
+    /* border: 2px solid black ; */
+    width: 1234px;
+    height: 159px;
+    border-radius: 45px;
+    margin-top: 30px;
+    background-color: #F3F3F3;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.txtchild{
-/* border: 2px solid black; */
-width:  1117px;
-height: 77px;
-display: flex;
-align-items: center;
-gap: 10px;
-/* justify-content: space-around; */
-
-}
-
-
-
-.txtchild h1{
-width: 75px;
-height: 77px;
-font-weight: 500;
-font-size: 60px;
-line-height: 100%;
-
-
-
+.txtchild {
+    /* border: 2px solid black; */
+    width: 1117px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: space-around; */
 
 }
 
-.txtchild h2{
-width: 612px;
-height: 38px;
-font-weight: 500;
-font-size: 30px;
-line-height: 100%;
+
+
+.txtchild h1 {
+    width: 75px;
+    height: 77px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
 
 
 
-    
+
 }
 
-.txtchild img{
+.txtchild h2 {
+    width: 612px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+
+
+
+
+}
+
+.txtchild img {
     margin-left: auto;
 }
 
+/* ==========MEET THE TEAM========== */
+
+.teamparent {
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 51px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 60px;
+    margin-top: 40px;
+    gap: 30px;
+
+}
+
+.team1 {
+    /* border: 2px solid black; */
+    width: 115px;
+    height: 51px;
+    border-radius: 7px;
+    background-color: #B9FF66;
+    padding-left: 7px;
+    padding-right: 7px;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.team1>h2 {
+    width: 101px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+}
+
+.teamtext {
+    /* border: 2px solid black; */
+    width: 433px;
+    height: 46px;
+}
+
+/* ==========TEAM MAIN DIV========= */
+
+.teammain {
+    border: 2px solid black;
+    width: 100%;
+    height: 725px;
+    margin-top: 50px;
 
 
-           
+}
+
+
+.teamchild {
+    border: 2px solid black;
+    width: 100%;
+    height: 47%;
+    background-color: white;
+}
+
+.teamdiv {
+    border: 2px solid black;
+    width: 387px;
+    height: 331px;
+    border-radius: 45px;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team {
+    border: 2px solid black;
+    width: 317px;
+    height: 227px;
+
+
+}
+
+.teamhead {
+    border: 2px solid black;
+    width: 315px;
+    height: 102px;
+}
+
+.teampic {
+    border: 2px solid black;
+    width: 315px;
+    height: 100px;
+}
+
+.teampic img {
+    height: 100%;
+}
+
+.teamtxt {
+    border: 2px solid black;
+width: 110px;
+height: 26px;
+
+}
