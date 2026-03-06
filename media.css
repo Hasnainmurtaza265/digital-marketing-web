@@ -108,6 +108,47 @@
         font-size: 26px;
         width: auto;
     }
+
+/* ========================= */
+/* ===== WORK PROCESS ====== */
+/* ========================= */
+
+/* Tablet */
+@media screen and (max-width:1150px){
+
+.workparent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.workchild{
+    width: 95%;
+    height: auto;
+    padding: 20px;
+}
+
+.txtchild{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txtchild h1{
+    font-size: 45px;
+}
+
+.txtchild h2{
+    font-size: 24px;
+    width: auto;
+}
+
+}
+
+
+
 }
 
 /* ----- Tablet / Mobile: 768px ----- */
@@ -317,6 +358,34 @@
         width: 100%;
         height: auto;
     }
+
+
+    /* Mobile */
+
+
+.workchild{
+    width: 95%;
+    height: auto;
+}
+
+.txtchild{
+    flex-direction: row;
+    gap: 10px;
+}
+
+.txtchild h1{
+    font-size: 40px;
+}
+
+.txtchild h2{
+    font-size: 20px;
+}
+
+.txtchild img{
+    width: 30px;
+    height: 30px;
+}
+
 }
 
 /* ----- Small Mobile: 600px ----- */
