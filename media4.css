@@ -1,0 +1,60 @@
+@media screen and (max-width:360px) {
+
+    /* BLACK SECTION FIX */
+
+    .blackparent {
+        height: auto;
+        padding: 20px;
+    }
+
+    .blackchild {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .blacktxt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .verticalrow {
+        display: none;
+    }
+
+    /* CONSULTATION DIV FIX */
+
+    .mainchild {
+        /* flex-direction: ; */
+        gap: 10px;
+        height: auto;
+        /* padding: 10px; */
+        display: flex;
+        border: 2px solid black;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    .mainchild h1 {
+        font-size: 32px;
+    }
+
+    .mainchild h2 {
+        font-size: 18px;
+        /* text-align: center;  */
+        margin-top: 20px;
+    }
+
+    /* IMAGE FIX */
+
+    .mainchild img {
+        width: 30px;
+        height: auto;
+        /* object-fit: contain; */
+    }
+
+    .consultationtxt {
+        width: 100%;
+        font-size: 14px;
+    }
+
+}
